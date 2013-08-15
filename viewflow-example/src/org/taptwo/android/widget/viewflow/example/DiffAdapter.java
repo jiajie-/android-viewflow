@@ -15,7 +15,7 @@ public class DiffAdapter extends BaseAdapter implements TitleProvider {
         private static final int VIEW_MAX_COUNT = VIEW2 + 1;
     	private final String[] names = {"View1","View2"};
 
-    private LayoutInflater mInflater;
+    private LayoutInflater mInflater;//test change
 
     public DiffAdapter(Context context) {
         mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
