@@ -26,7 +26,7 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class ViewFlowExample extends Activity {
 
-	ListView listView;
+	ListView listView;//test
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
